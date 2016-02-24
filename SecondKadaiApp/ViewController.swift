@@ -13,7 +13,7 @@ class ViewController: UIViewController {
    
     
     @IBOutlet weak var Name: UITextField!
-    var name1:String!
+    
     
     
     
@@ -29,12 +29,11 @@ class ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let secondViewController:SecondViewController = segue.destinationViewController as!SecondViewController
-        secondViewController.name2 = name1
-        
+        secondViewController.name2 = Name.text
     }
     
     @IBAction func Did(sender: UITextField) {
-        name1 = Name.text
+        
     }
     
     
