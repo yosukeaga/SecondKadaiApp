@@ -68,7 +68,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y14-GI-yrt">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y14-GI-yrt">
                                 <rect key="frame" x="277" y="342" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -90,6 +90,8 @@
                         <constraints>
                             <constraint firstItem="HwR-fD-kSV" firstAttribute="centerX" secondItem="B7B-HV-AzH" secondAttribute="centerX" id="2MT-mx-Uav"/>
                             <constraint firstItem="Y14-GI-yrt" firstAttribute="centerX" secondItem="B7B-HV-AzH" secondAttribute="centerX" id="N3B-78-t2R"/>
+                            <constraint firstItem="Y14-GI-yrt" firstAttribute="centerX" secondItem="B7B-HV-AzH" secondAttribute="centerX" id="O9a-6H-NHN"/>
+                            <constraint firstItem="Y14-GI-yrt" firstAttribute="centerY" secondItem="B7B-HV-AzH" secondAttribute="centerY" id="UAZ-Xk-DPO"/>
                         </constraints>
                     </view>
                     <connections>
